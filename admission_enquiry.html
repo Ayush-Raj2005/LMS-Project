@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Enquiry</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <h2>School LMS</h2>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about_us.html">About Us</a>
+
+            <a href="admission_enquiry.html">Admission</a>
+            <a href="teacher_apply.html" target="_main">Apply as Teacher</a>
+            <a href="login_page.html" target="_main">Login</a>
+        </nav>
+    </header>
+
+    <div id="admission-form" class="form-container">
+        <h2>Admission Enquiry Form</h2>
+        <form>
+
+            <input id="name" type="text" placeholder="Student Name" required>
+
+            <input id="father" type="text" placeholder="Father's Name" required>
+
+            <label>Applying for Class</label>
+            <select required>
+                <option value="">Select Class</option>
+                <option>Class 1</option>
+                <option>Class 2</option>
+                <option>Class 3</option>
+                <option>Class 4</option>
+                <option>Class 5</option>
+                <option>Class 6</option>
+                <option>Class 7</option>
+                <option>Class 8</option>
+                <option>Class 9</option>
+                <option>Class 10</option>
+            </select>
+
+            <input type="text" placeholder="Hobby">
+
+            <input id="email" type="email" placeholder="Email Address" required>
+
+            <input id="mobile" type="tel" maxlength="10" placeholder="Mobile Number" required>
+
+            <textarea placeholder="Full Address" rows="3" required></textarea>
+
+            <textarea placeholder="Co-curricular Activities (Sports, Music, etc.)" rows="3"></textarea>
+
+            <button type="submit">Submit Enquiry</button>
+
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
